@@ -34,6 +34,8 @@ const SingleApp = (props) => {
           }, 1000)
     }
 
+    //kurac
+
     return (
         <div className="single-app-container">
             <div className="single-app-title">{props.title}</div>
