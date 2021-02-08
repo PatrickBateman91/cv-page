@@ -1,8 +1,6 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import LoginData from './LoginData';
-import {betAppLoginData,  shopAppLoginData, betAppLoginTitle, shopAppLoginTitle} from '../TextObjects';
-import ExternalGoToIcon from '../../images/external-goto-icon.png';
 import ReactIcon from '../../images/react-icon.png';
 import NodeIcon from '../../images/node-icon.png';
 import ReduxIcon from '../../images/redux-icon.png';
@@ -33,9 +31,6 @@ const SingleApp = (props) => {
             copyId.style.backgroundColor = "#eadac5";
           }, 1000)
     }
-
-    //kurac
-
     return (
         <div className="single-app-container">
             <div className="single-app-title">{props.title}</div>
@@ -84,11 +79,7 @@ const SingleApp = (props) => {
                     </ul>
                 </div>
             </div>
-                  <LoginData 
-                  data={props.title === "Shoe shop" ?  shopAppLoginData : betAppLoginData} 
-                  handleCopy={handleCopy}
-                  title={props.title === "Shoe shop" ? shopAppLoginTitle : betAppLoginTitle}
-                  />
+
         {props.title === "Shoe shop" ? <div className="single-app-picture-container">
                 <img src={Shop2} alt="Home page" />
                 <img src={Shop3} alt="Cart" />
@@ -100,14 +91,11 @@ const SingleApp = (props) => {
                 <img src={Bets3} alt="Single bet" />
                 <img src={Bets2Alt} alt="Add bet" />
         </div>}
-
-        <div className="visit-app">
-            <a href={props.title === "Shoe shop" ? "https://spaha-shopapp.netlify.app/" : "https://spaha-betapp.netlify.app/"} target="_blank" rel="noreferrer">
-                <span>Visit page</span>
-                <img src={ExternalGoToIcon} alt="go to external link" />
-                </a>
-         
-            </div>
+        <LoginData 
+                  handleCopy={handleCopy}
+                  selectedMenu={props.selectedMenu}
+                  title={props.title }
+                  />
         </div>
     );
 };

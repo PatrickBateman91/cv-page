@@ -298,14 +298,15 @@ display: flex;
 
 .single-app-picture-container img:hover{
   position: relative;
-  cursor: pointer;
   transform: scale(1.5);
   transition: all, .5s ease-in;
+  z-index:6;
 }
 
 .visit-app{
-  font-size:2em;
-  padding:30px;
+  font-size:2.5em;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
 
 .visit-app a{
@@ -365,6 +366,7 @@ display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding:10px;
+  margin-top:50px;
   margin-bottom:20px;
   border-radius: 10px;
   border:1px solid black;
@@ -375,6 +377,8 @@ display: flex;
 
 .login-data-title{
   font-weight: bold;
+  font-size:1.2em;
+  margin-top:20px;
   margin-bottom: 20px;
 }
 
@@ -489,7 +493,12 @@ display: flex;
 
 @media(max-width:300px){
   .login-data-container{
+    margin-top:20px;
     font-size:0.8em;
+  }
+
+  .single-app-picture-container img:hover{
+    transform: scale(1.0);
   }
 }
 
@@ -643,6 +652,10 @@ display: flex;
     width:25vw;
   }
 
+  .single-app-picture-container img:hover{
+    transform: scale(1.0);
+  }
+
   .apps-used-container img{
     width:25px;
     max-height: 30px;
@@ -664,11 +677,8 @@ display: flex;
     width:25px;
   }
 
-  .visit-app{
-    padding:15px;
-  }
-
   .login-data-container{
+    margin-top:20px;
     width:90vw;
   }
 

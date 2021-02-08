@@ -1,7 +1,6 @@
 import React from 'react';
 import UpperPart from './Top/UpperPart';
 import MiddlePart from './Middle/MiddlePart';
-import Contact from './Bottom/Contact.js';
 import LowerPart from './Bottom/LowerPart';
 import {useState} from 'react';
 
@@ -11,7 +10,6 @@ const Main = (props) => {
     const [hoverFilm, setHoverFilm] = useState("none");
     const [selectedMenu, setMenu] = useState('dev');
     const [whichCodepen, setWhichCodepen] = useState('none');
-    
     const usingMobile = window.screen.width < 481;
 
 
@@ -44,6 +42,7 @@ const Main = (props) => {
     }
    }
 
+
         return (
             <div className="main-container">
                 <UpperPart selectedMenu={selectedMenu} usingMobile={usingMobile}/>
@@ -52,7 +51,7 @@ const Main = (props) => {
                 activeHover={activeFilmHover}
                 handleCodepenHover={handleCodepenHover}
                 handleFilmHover={handleFilmHover} 
-                handleNavbar={handleNavbar} 
+                handleNavbar={handleNavbar}
                 hoverFilm={hoverFilm}
                 selectedMenu={selectedMenu}
                 usingMobile={usingMobile}

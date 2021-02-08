@@ -12,6 +12,7 @@ const DevBiography = (props) => {
                 <SingleApp
                     infoObject={shopAppObject}
                     reduxUsed={true}
+                    selectedMenu={props.selectedMenu}
                     title="Shoe shop"
                 />
             </Pulse>
@@ -19,6 +20,7 @@ const DevBiography = (props) => {
                 <SingleApp
                     infoObject={betAppObject}
                     reduxUsed={false}
+                    selectedMenu={props.selectedMenu}
                     title="Bet web-app"
                 />
             </Pulse>

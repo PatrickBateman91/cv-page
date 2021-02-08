@@ -25,11 +25,14 @@ const MiddlePart = (props) => {
                     <FilmBiography
                         activeHover={props.activeHover}
                         hoverFilm={props.hoverFilm}
-                        handleFilmHover={props.handleFilmHover} />
+                        handleFilmHover={props.handleFilmHover}
+                        selectedMenu={props.selectedMenu}
+                         />
                     :
                     <DevBiography
                         activeCodepenHover={props.activeCodepenHover}
                         handleCodepenHover={props.handleCodepenHover}
+                        selectedMenu={props.selectedMenu}
                         whichCodepen={props.whichCodepen}
                     />}
             </div>

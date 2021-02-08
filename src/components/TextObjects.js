@@ -13,7 +13,7 @@ import Soumission from '../images/pokoravanje.jpg';
 import CovjekCelicneVolje from '../images/covjekcelicnevolje.jpg';
 
 export const filmBio_EN = ["assistant director", "feature-lengths, shorts & commercials", "competition assistant at SFF"];
-export const devBio_EN = ["M.E.R.N. stack developer", "hobby for 3 years", "worked with D3, Sass & Redux"];
+export const devBio_EN = ["M.E.R.N. stack developer", "finished freeCodeCamp bootcamp","hobby for 3 years"];
 export const nameAndAge_EN = "Amar Spahić, 28";
 
 
@@ -141,7 +141,7 @@ export const myWorksObject = [
 ]
 
 export const betAppObject = {
-    leftLi: ["Fully functional user authentication","Add regular or group bets", "Add bets with same or different stakes", "Add, edit, finish & manage your bets", ],
+    leftLi: ["Fully functional user authentication","Add regular or group bets", "Add bets with same or different stakes", "Edit, finish & manage your bets", ],
     middleLi: ["Add profile picture to display on your public profile", "Create seperate groups for each circle of friends ", "Seperate statistics for each group", "Bets and groups function on mutual approval system"],
     rightLi: ["Track your balance", "Notification system", "Option to deactivate your account", "Created without Redux", ]
 }
