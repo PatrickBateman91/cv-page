@@ -1,6 +1,13 @@
 
 /*HOME - MAIN PAGE*/
 
+/* 
+
+  indentacije sredjuj, negdje ih nemas nikako, negdje jedan nivo, negdje 2, odluci se za neki standard i onda ga prati
+  SCSS ce ti olaksati zivot, kad initas react projekat nudi ti opciju ja mislim odmah hoces li CSS ili SCSS
+
+*/
+
 *{
   font-family: 'Roboto', sans-serif;
 }
@@ -292,14 +299,21 @@ display: flex;
   width:20vw;
   border:1px solid black;
   border-radius:10px;
+  transition: all, .5s ease-in;
+  /* 
+    ako hoces transition da koristis onda ga stavi na pocetno stanje elementa a ne na :hover jer onda imas tranziciju i kad sklonis mis
+    inace si kacio transition samo na :hover i onda cim sklonis mis naglo se smanji slika a sad kad sam ti prebacio ovdje transition,
+    vidjeces kako se i povecava i smanjuje postepeno
+    i ako koristis scale kao ovdje, daj mu pocetno stanje (scale(1)) tako da tranzicija zna ta 2 krajnja stanja
+  */
+  transform: scale(1);
   height:auto;
   z-index:5;
 }
 
 .single-app-picture-container img:hover{
-  position: relative;
+  /* position: relative; */
   transform: scale(1.5);
-  transition: all, .5s ease-in;
   z-index:6;
 }
 

@@ -15,7 +15,9 @@ const Main = (props) => {
 
 
     const handleNavbar = (e) => {
-        if(e.target.innerHTML === "film"){
+        // izbjegavaj ovo cupanje podataka iz event objekta, bolje da proslijedis ovoj funkciji odmah odgovarajuci argument
+        // tamo gdje je pozivas umjesto da vadis innerHTML iz event targeta, tako inace za sve ove event handlere
+        if(e.target.innerHTML === "film"){ 
             setMenu('film');
         } else if(e.target.innerHTML === "dev"){
             setMenu('dev');

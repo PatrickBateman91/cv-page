@@ -17,7 +17,10 @@ export const devBio_EN = ["M.E.R.N. stack developer", "finished freeCodeCamp boo
 export const nameAndAge_EN = "Amar Spahić, 28";
 
 
-
+// napravi sebi na mocky.io (ili u postmanu) placeholder http requeste koji ti vracaju ovo, nemoj lokalno drzati ovakve podatke
+// nego u komponenti gdje ces prikazati ovo pravi request koji ti vraca ove arrayeve/objekte
+// radi malo te async pozive, mozes fetch() koristiti i onda trebas hendlati loading state dok cekas taj response, 
+// pa uraditi error handling (try/catch) itd
 export const featureLengthObject = [
     {
         director: "Directed by: Aida Begić - Zubčević",
