@@ -6,6 +6,12 @@
   indentacije sredjuj, negdje ih nemas nikako, negdje jedan nivo, negdje 2, odluci se za neki standard i onda ga prati
   SCSS ce ti olaksati zivot, kad initas react projekat nudi ti opciju ja mislim odmah hoces li CSS ili SCSS
 
+  inace uopsteno oko stila - mogao si bootstrap ovdje uzeti pa fino u grid redati stvari, sad na mobitelu budu premale neke slike recimo,
+  bolje da ih u kolonu redas na <480px ekranima ukljucujuci slike i ove inpute za kpiranje kredencijala
+
+  dole gdje su ti one kartice sto vode na codepepn projekte gdje se link pojavi na hover, bolje bi bilo da je cijela kartica link a ne samo
+  na sredini ona ikona sto se pojavi
+
 */
 
 *{
@@ -305,6 +311,8 @@ display: flex;
     inace si kacio transition samo na :hover i onda cim sklonis mis naglo se smanji slika a sad kad sam ti prebacio ovdje transition,
     vidjeces kako se i povecava i smanjuje postepeno
     i ako koristis scale kao ovdje, daj mu pocetno stanje (scale(1)) tako da tranzicija zna ta 2 krajnja stanja
+
+    samo sam ti na ovom primjeru premjestio to, ali gdje god imas transition, odmah ga navedi a  ne na :hover/:focus itd
   */
   transform: scale(1);
   height:auto;
