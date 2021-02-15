@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './styles.scss';
 
 const Contact = () => {
     return (
@@ -17,7 +18,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-item">
-                 <span>+387 61 414 045</span>
+                    <span>+387 61 414 045</span>
                     <div className=""><FontAwesomeIcon icon={faPhone} /></div>
                 </div>
             </div>

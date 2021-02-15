@@ -1,0 +1,148 @@
+/* HEADER */
+.upper-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        margin:20px;
+    }
+
+    @media (max-width: 480px) {
+        margin-top:0px;
+
+        div{
+            margin-bottom: 5px;
+        }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 1280px){
+        font-size:0.8em;
+
+        div{
+            margin:10px;
+        }
+    }
+}
+    
+.picture-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width:300px;
+        border-radius: 50%;
+        border:2px solid black;
+        -webkit-box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+        -moz-box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+        box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+    }
+
+    @media (max-width: 480px) {
+        width:100vw;
+
+        img{
+            width:40vw;
+        }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 1280px){
+        img{
+            width:20vw;
+        }
+    }
+}
+    
+.personal-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    span:first-of-type{
+        font-weight: bold;
+        font-size:1.2em;
+    }
+
+    @media (max-width: 480px) {
+        margin-top:10px !important;
+        font-size:0.8em;
+    }
+}
+      
+.film-short-biography{
+    width:33%;
+    text-align: right;
+}
+      
+.dev-short-biography{
+    width:33%;
+}
+
+.main-list-film{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    img{
+        margin:5px;
+        width:7px;
+    }
+}
+        
+.main-list-dev{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img{
+        margin:5px;
+        width:7px;
+    }
+}
+
+/* MOBILE BIO */
+.mobile-biography{
+    display:flex;
+    flex-direction: column;
+    font-size:0.8em;
+}
+  
+.film-mobile-bio{
+    position: relative;
+    width: 85vw;
+    margin-right: 0px;
+    left:10vw;
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+}
+  
+.dev-mobile-bio{
+    position:relative;
+    left:25vw;
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+
+    div{
+        justify-content: flex-end;
+    }
+}
+  
+.main-list-mobile{
+    display:flex;
+    align-items: center;
+    padding:3px;
+    width:60vw;
+
+    img{
+        width:4px;
+        padding:3px;
+    }
+
+    @media (max-width: 321px) {
+        width:70vw,
+    }
+}
