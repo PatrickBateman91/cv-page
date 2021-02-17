@@ -5,12 +5,26 @@ import Header from './components/Header/Header';
 import './App.scss';
 
 const App = (props) => {
+    const [positionIcon, setPosition] = useState('bottom');
     const [selectedMenu, setMenu] = useState('dev');
     const usingMobile = window.screen.width < 481;
- 
+    const windowHeight = window.screen.height;
+
+    document.addEventListener('scroll', function (e) {
+        if (document.documentElement.scrollTop > (windowHeight / 2)) {
+            if (positionIcon === "bottom") {
+                setPosition('top');
+            }
+        } else {
+            if (positionIcon === "top") {
+                setPosition('bottom');
+            }
+        }
+    })
+
     return (
         <div className="main-container">
-            <Header selectedMenu={selectedMenu} usingMobile={usingMobile} />
+            <Header positionIcon={positionIcon} selectedMenu={selectedMenu} usingMobile={usingMobile} />
             <Body
                 handleNavbar={setMenu}
                 selectedMenu={selectedMenu}

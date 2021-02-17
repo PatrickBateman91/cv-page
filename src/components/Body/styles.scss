@@ -55,6 +55,10 @@
     flex-direction: column;
     width:100vw;
     margin-bottom: 30px;
+
+    @media (max-width: 480px) {
+        margin-top:50px;
+    }
 }
   
 .navbar-mobile-container{

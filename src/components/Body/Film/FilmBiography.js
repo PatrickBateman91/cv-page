@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
+import Fade  from 'react-reveal/Fade';
 import { featureLengthObject, shortsObject, myWorksObject, otherObject } from '../../InfoObjects/FilmObjects';
 import SingleFilm from './SingleFilm';
 import './styles.scss';
@@ -13,7 +13,8 @@ const FilmBiography = (props) => {
             {featureLengthObject.map((movie, index) => {
                 return (
                     <Fade
-                        direction={index % 2 === 0 ? "left" : "right"}
+                        left={index % 2 === 0 ? true : false}
+                        right={index % 2 === 0 ? false : true}
                         delay={120 * index}
                         duration={500}
                         key={movie.name}
@@ -43,7 +44,8 @@ const FilmBiography = (props) => {
             {shortsObject.map((movie, index) => {
                 return (
                     <Fade
-                        direction={index % 2 === 0 ? "left" : "right"}
+                        left={index % 2 === 0 ? true : false}
+                        right={index % 2 === 0 ? false : true}
                         delay={100 * index}
                         duration={500}
                         key={movie.name}
@@ -73,7 +75,8 @@ const FilmBiography = (props) => {
             {otherObject.map((movie, index) => {
                 return (
                     <Fade
-                        direction={index % 2 === 0 ? "left" : "right"}
+                        left={index % 2 === 0 ? true : false}
+                        right={index % 2 === 0 ? false : true}
                         delay={100 * index}
                         duration={500}
                         key={movie.name}
@@ -102,7 +105,8 @@ const FilmBiography = (props) => {
             {myWorksObject.map((movie, index) => {
                 return (
                     <Fade
-                        direction={index % 2 === 0 ? "left" : "right"}
+                        left={index % 2 === 0 ? true : false}
+                        right={index % 2 === 0 ? false : true}
                         delay={100 * index}
                         duration={500}
                         key={movie.name}

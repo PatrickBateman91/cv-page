@@ -12,7 +12,7 @@ import ReduxIcon from '../../../images/Icons/redux-icon.png';
 import Shop1 from '../../../images/Dev/shop1.jpg';
 import Shop2 from '../../../images/Dev/shop2.jpg';
 import Shop3 from '../../../images/Dev/shop3.jpg';
-import { Zoom } from 'react-awesome-reveal';
+import  Zoom  from 'react-reveal/Zoom';
 import './styles.scss';
 
 const SingleApp = (props) => {
@@ -49,7 +49,7 @@ const SingleApp = (props) => {
                     <ul>
                         {props.infoObject.leftLi.map((item, index) => {
                             return (
-                                <Zoom delay={100 * index} key={index} triggerOnce>
+                                <Zoom delay={100 * index} key={index}>
                                     <li key={item}>{item}</li>
                                 </Zoom>
                             )
@@ -61,7 +61,7 @@ const SingleApp = (props) => {
                     <ul>
                         {props.infoObject.middleLi.map((item, index) => {
                             return (
-                                <Zoom delay={400 + (100 * index)} key={index} triggerOnce>
+                                <Zoom delay={400 + (100 * index)} key={index}>
                                     <li key={item}>{item}</li>
                                 </Zoom>)
                         })}
@@ -72,7 +72,7 @@ const SingleApp = (props) => {
                     <ul>
                         {props.infoObject.rightLi.map((item, index) => {
                             return (
-                                <Zoom delay={600 + (100 * index)} key={index} triggerOnce>
+                                <Zoom delay={600 + (100 * index)} key={index}>
                                     <li key={item}>{item}</li>
                                 </Zoom>
                             )

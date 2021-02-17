@@ -1,0 +1,107 @@
+.about-me-holder{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 5px;
+
+    .about-me-big-title{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Questrial', sans-serif;
+        color:#3A3856;
+        font-size:4em;
+        letter-spacing: 5px;
+        padding:10px 0px;
+
+        div{
+            padding: 5px 0px;
+        }
+
+        :nth-child(even){
+            position: relative;
+            right:-50px;
+            font-size: 0.6em;
+            padding:10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        width:95%;
+        font-size:0.8em;
+
+        .about-me-big-title{
+            font-size:2.5em;
+
+            :nth-child(even){
+                position: relative;
+                left:3px;
+                font-size: 0.7em;
+                padding:5px;
+            }
+
+            :nth-child(odd){
+                position: relative;
+                text-align: center;
+                left:10px;
+                margin-bottom:15px;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        width:100%;
+        font-size:0.7em;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1280px){
+        width:100%;
+        font-size:0.78em;
+    }
+
+    @media only screen and (min-width: 1281px) and (max-width: 1699px){
+        width:100%;
+    }
+}
+
+.about-me-paragraph{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 3px;
+    width:80%;
+    margin:20px;
+
+    .about-me-note{
+        font-size:0.6em;
+    }
+
+    @media (max-width: 480px) {
+        width:95%;
+    }
+}
+
+.about-me-paragraph-container{
+    div:nth-child(even){
+        position: relative;
+        left:10px;
+    }
+    div:nth-child(odd){
+        position:relative;
+        left: -10px;
+    }
+
+    @media (max-width: 480px) {
+        width:100%;
+        div:nth-child(even){
+            position: relative;
+            left:5px;
+        }
+        div:nth-child(odd){
+            position:relative;
+            left: -5px;
+        }
+    }
+}

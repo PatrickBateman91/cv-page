@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import { betAppLoginData, shopAppLoginData, betAppLoginTitle, shopAppLoginTitle } from '../../InfoObjects/DevObjects';
-import { AttentionSeeker } from 'react-awesome-reveal';
+import Pulse from 'react-reveal/Pulse';
 import ExternalLink from '../../../images/Icons/external-goto-icon.png';
 import './styles.scss';
 
@@ -34,14 +34,14 @@ const LoginData = (props) => {
         <div className="login-data-container">
             <div className="login-data-title">{title}</div>
             <div className="login-data-body">{loginDataDiv}</div>
-            {<AttentionSeeker delay={500} effect="heartBeat">
+            {<Pulse delay={500}>
                 <div className="visit-app">
                     <a href={props.title === "CV PROJECT #1 - Shoe shop" ? "https://spaha-shopapp.netlify.app/" : "https://spaha-betapp.netlify.app/"} target="_blank" rel="noreferrer">
                         <span>Visit page</span>
                         <img src={ExternalLink} alt="go to external link" />
                     </a>
                 </div>
-            </AttentionSeeker>
+            </Pulse>
             }
         </div>
     );

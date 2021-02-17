@@ -1,23 +1,28 @@
-import React from 'react';
-import { nameAndAge } from '../InfoObjects/MutualObjects';
-import Bullet from '../../images/Icons/bullet.png';
-import HeaderFilmBio from './HeaderFilmBio';
-import HeaderDevBio from './HeaderDevBio';
+import React, { Fragment } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowCircleDown, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
+import Slide from 'react-reveal/Slide';
+import AboutMe from './AboutMe/AboutMe';
 import Portrait from '../../images/Portrait.jpg';
 import './styles.scss';
 
 const Header = (props) => {
   return (
-    <div className="upper-container">
-      {props.usingMobile ? null : <HeaderFilmBio bullet={Bullet} />}
-      <div className="picture-container">
-        <img src={Portrait} alt="Amar Spahić" />
-        <div className="personal-info">
-          <span>{nameAndAge}</span>
+    <Fragment>
+      <div className="upper-container" id="scroll-to-header">
+        <div className="portrait-container">
+          <Slide left><img src={Portrait} alt="Amar Spahić" /></Slide>
+        </div>
+        <div className="about-me-container">
+          <AboutMe />
         </div>
       </div>
-      {props.usingMobile ? null : <HeaderDevBio bullet={Bullet} />}
-    </div>
+      {props.usingMobile ? null :
+        <div className="header-icon-container">
+          <a href={props.positionIcon === "bottom" ? "#scroll-to-body" : "#scroll-to-header"}><FontAwesomeIcon icon={props.positionIcon === "bottom" ? faArrowCircleDown : faArrowCircleUp} /></a>
+        </div>}
+
+    </Fragment>
   )
 };
 

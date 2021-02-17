@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import FilmBiography from './Film/FilmBiography';
 import DevBiography from './Dev/DevBiography';
+import FilmBiography from './Film/FilmBiography';
 import MobileBody from './MobileBody';
 import './styles.scss';
+
 
 const Body = (props) => {
     const [activeCodepenHover, setActiveCodepenHover] = useState(false);
@@ -31,7 +32,8 @@ const Body = (props) => {
     }
 
     return (
-        <div className="middle-container">
+        <div className="middle-container" id="scroll-to-body">
+
             {props.usingMobile ?
                 <MobileBody handleNavbar={props.handleNavbar} selectedMenu={props.selectedMenu} usingMobile={props.usingMobile} />
                 :
