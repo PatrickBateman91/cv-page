@@ -33,7 +33,8 @@ const AboutMe = (props) => {
 
                 <Slide right delay={350}>
                     <div className="about-me-paragraph">
-                        I am going to stick to the golden rule of <b>Show don't tell</b>, and let you be the judge of my abilities based on the <b>two CV projects</b> below. All I ask from you is to check them out before dismissing me on grounds of having no professional experience.
+                        I am going to stick to the golden rule of <b>Show don't tell</b>, and let you be the judge of my abilities based on the <b>two CV projects</b> below. All I ask from you is to check them out before dismissing me on the grounds of having no professional experience.  
+                        <b> Source code</b> for both projects can be found on my <a href="https://github.com/PatrickBateman91" target="_blank" rel="noreferrer">github</a> account.
                     </div>
                 </Slide>
 
