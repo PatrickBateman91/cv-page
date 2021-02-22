@@ -81,7 +81,7 @@ const SingleApp = (props) => {
                 </div>
             </div>
 
-            {props.title === "CV PROJECT #1 - Shoe shop" ? <div className="single-app-picture-container">
+            {props.title === "CV PROJECT #2 - Shoe shop" ? <div className="single-app-picture-container">
                 <a href="https://spaha-shopapp.netlify.app/" target="_blank" rel="noreferrer"><img src={Shop1} alt="Home page" /></a>
                 <a href="https://spaha-shopapp.netlify.app/" target="_blank" rel="noreferrer"><img src={Shop2} alt="Cart" /></a>
                 <a href="https://spaha-shopapp.netlify.app/" target="_blank" rel="noreferrer"><img src={Shop3} alt="Admin stats" /></a>

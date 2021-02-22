@@ -8,7 +8,7 @@ import './styles.scss';
 
 const LoginData = (props) => {
     let data, title;
-    if (props.title === "CV PROJECT #1 - Shoe shop") {
+    if (props.title === "CV PROJECT #2 - Shoe shop") {
         data = shopAppLoginData;
         title = shopAppLoginTitle;
     } else {
@@ -36,7 +36,7 @@ const LoginData = (props) => {
             <div className="login-data-body">{loginDataDiv}</div>
             {<Pulse delay={500}>
                 <div className="visit-app">
-                    <a href={props.title === "CV PROJECT #1 - Shoe shop" ? "https://spaha-shopapp.netlify.app/" : "https://spaha-betapp.netlify.app/"} target="_blank" rel="noreferrer">
+                    <a href={props.title === "CV PROJECT #2 - Shoe shop" ? "https://spaha-shopapp.netlify.app/" : "https://spaha-betapp.netlify.app/"} target="_blank" rel="noreferrer">
                         <span>Visit page</span>
                         <img src={ExternalLink} alt="go to external link" />
                     </a>

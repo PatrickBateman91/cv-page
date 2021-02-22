@@ -268,7 +268,7 @@
         justify-content: space-between;
 
         @media (max-width: 480px) {
-            width:auto;
+            width:90vw;
         }
 
         @media only screen and (min-width: 480px) and (max-width: 1280px){
@@ -287,13 +287,17 @@
         padding:1px 0px;
         align-items: center;
 
+        input{
+            width:70%;
+        }
+
         svg:hover{
             cursor: pointer;
             transform: scale(1.2);
         }
 
         @media (max-width: 480px) {
-            width:auto;
+            width:40vw;
             padding:5px;
 
             svg{

@@ -40,7 +40,7 @@ const AboutMe = (props) => {
 
                 <Slide right delay={400}>
                     <div className="about-me-paragraph">
-                        If you happen to like what you find there, I am  looking for a job as a junior <b>front-end / M.E.R.N. stack developer.</b>
+                        If you happen to like what you find there, I am  looking for a job as a <b>front-end / M.E.R.N. stack developer.</b>
                     </div>
                 </Slide>
 

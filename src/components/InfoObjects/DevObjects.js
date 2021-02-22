@@ -15,13 +15,13 @@ export const shopAppLoginData = [
 export const betAppObject = {
     leftLi: ["Fully functional user authentication", "Add regular or group bets", "Add bets with same or different stakes", "Edit, finish & manage your bets",],
     middleLi: ["Add profile picture to display on your public profile", "Create seperate groups for each circle of friends ", "Seperate statistics for each group", "Bets and groups function on mutual approval system"],
-    rightLi: ["Track your balance", "Notification system", "Option to deactivate your account", "Created without Redux",]
+    rightLi: ["Track your balance", "Notification system", "Option to deactivate your account", "Fully responsive",]
 }
 
 export const betAppLoginTitle = "Login data for accounts with precreated bets & groups";
 
 export const betAppLoginData = [
-    { email: "maciasip@hotmail.com", password: "testtest123" },
+    { email: "dennisasip@hotmail.com", password: "testtest123" },
     { email: "jerryseinfeld@hotmail.com", password: "testtest123" }
 ];
 
