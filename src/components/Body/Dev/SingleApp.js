@@ -40,7 +40,7 @@ const SingleApp = (props) => {
                 <img src={ReactIcon} alt="React" />
                 <img src={ExpressIcon} alt="Express" />
                 <img src={NodeIcon} alt="Node" />
-                {props.reduxUsed ? <img src={ReduxIcon} alt="Redux" /> : null}
+                { <img src={ReduxIcon} alt="Redux" />}
                 <img src={D3} alt="d3" />
             </div>
 

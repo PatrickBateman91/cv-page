@@ -23,7 +23,7 @@ const LowerPart = (props) => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://ba.linkedin.com/in/amar-spahi%C4%87-548308123" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/amar-spahic" target="_blank" rel="noreferrer">
                         <img src={LinkedInIcon} alt="Linked in icon" />
                     </a>
                 </div>

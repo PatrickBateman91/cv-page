@@ -21,19 +21,20 @@ const AboutMe = (props) => {
 
                 <Slide right delay={250}>
                     <div className="about-me-paragraph">
-                        Because of COVID, situation in my profession is looking dreadful, so I am looking to switch to <b>web development</b> which has been my hobby for the last 3 years. <span className="about-me-note">(and staying there)</span>
+                        Because of COVID, situation in my profession is looking dreadful, so I am looking to a permanent switch to <b>web development</b> because I have been developing passionately on the side for the last <b>3 years</b>.
                     </div>
                 </Slide>
 
                 <Slide right delay={300}>
                     <div className="about-me-paragraph">
-                        I have a good understanding of <b>Javascript</b> and <b>React</b>, and have worked with <b>Node.js</b>, <b>Express</b>, and <b>MongoDB</b>.
+                        I have a good understanding of <b>Javascript</b> & <b>React</b> on the front end, and <b>Node.js</b> & <b>Express</b> on the back end. I have worked with <b>NoSQL</b> databases, notably with <b>MongoDB</b>.
+                        I am familiar with other technologies & tools commonly used for web development such as <b>jQuery</b>, <b>Redux</b>, <b>Bootstrap</b>, <b>Materialize</b>, <b>SASS</b>, <b>D3</b> and more.
                     </div>
                 </Slide>
 
                 <Slide right delay={350}>
                     <div className="about-me-paragraph">
-                        I am going to stick to the golden rule of <b>Show don't tell</b>, and let you be the judge of my abilities based on the <b>two CV projects</b> below. All I ask from you is to check them out before dismissing me on the grounds of having no professional experience.  
+                        I will stop here and stick to the golden rule of <b>Show don't tell</b>, and let you be the judge of my abilities based on the <b>two portfolio projects</b> below. All I ask from you is to check them out before dismissing me on the grounds of having no professional experience.  
                         <b> Source code</b> for both projects can be found on my <a href="https://github.com/PatrickBateman91" target="_blank" rel="noreferrer">github</a> account.
                     </div>
                 </Slide>

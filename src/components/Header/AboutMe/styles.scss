@@ -4,6 +4,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     border-radius: 5px;
+    line-height: 1.25;
 
     .about-me-big-title{
         display:flex;
@@ -55,7 +56,7 @@
     @media only screen and (min-width: 481px) and (max-width: 768px){
         align-items: center;
         width:100%;
-        font-size:0.7em;
+        font-size:0.6em;
     }
 
     @media only screen and (min-width: 769px) and (max-width: 1280px){
@@ -101,10 +102,6 @@
     letter-spacing: 3px;
     width:80%;
     margin:20px;
-
-    .about-me-note{
-        font-size:0.6em;
-    }
 
     a{
         color:black;

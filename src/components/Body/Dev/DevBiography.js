@@ -10,14 +10,12 @@ const DevBiography = (props) => {
 
             <SingleApp
                 infoObject={betAppObject}
-                reduxUsed={false}
                 selectedMenu={props.selectedMenu}
                 title="CV PROJECT #1 - Bet web-app"
             />
 
             <SingleApp
                 infoObject={shopAppObject}
-                reduxUsed={true}
                 selectedMenu={props.selectedMenu}
                 title="CV PROJECT #2 - Shoe shop"
             />
