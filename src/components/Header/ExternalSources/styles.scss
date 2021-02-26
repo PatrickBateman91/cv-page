@@ -1,0 +1,36 @@
+.icon-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:200px;
+
+    img{
+        max-height: 50px;
+        width:50px;
+        &:hover{
+            transform: scale(1.1);
+            transition:all .3s ease-in-out;
+        }
+    }
+}
+
+.icon-holder{
+    display:flex;
+    justify-content: space-between;
+    width: 70vw;
+
+    @media (max-width: 480px) {
+        width: 90vw;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width:1280px){
+        width:85vw;
+    }
+}
+
+.right-icons{
+    display:flex;
+    div img{
+        margin:3px;
+    }
+}

@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import Body from './components/Body/Body';
+import Biography from './components/Body/Biography/Biography';
 import Footer from './components/Footer/Footer';
+import Front from './components/Body/Front/Front';
 import Header from './components/Header/Header';
+import Showcase from './components/Body/Showcase/Showcase';
+import SmallerProjects from './components/Body/SmallerProjects/SmallerProjects';
+import Skills from './components/Body/Skills/Skills';
 import './App.scss';
 
 const App = (props) => {
     const [positionIcon, setPosition] = useState('bottom');
-    const [selectedMenu, setMenu] = useState('dev');
-    const usingMobile = window.screen.width < 481;
     const windowHeight = window.screen.height;
 
     document.addEventListener('scroll', function (e) {
@@ -24,13 +26,15 @@ const App = (props) => {
 
     return (
         <div className="main-container">
-            <Header positionIcon={positionIcon} selectedMenu={selectedMenu} usingMobile={usingMobile} />
-            <Body
-                handleNavbar={setMenu}
-                selectedMenu={selectedMenu}
-                usingMobile={usingMobile}
-            />
-            <Footer />
+            <div className="main-holder">
+                <Header />
+                <Front positionIcon={positionIcon}/>
+                <Skills />
+                <Showcase />
+                <SmallerProjects />
+                <Biography />
+                <Footer />
+            </div>
         </div>
     );
 }

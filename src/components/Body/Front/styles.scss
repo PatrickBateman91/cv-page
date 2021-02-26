@@ -1,0 +1,126 @@
+.front-container{
+    display:flex;
+    flex-direction: column;
+    height:78vh;
+
+    @media only screen and (min-width: 769px) and (max-width:1699px){
+        height:75vh;
+    }
+
+    @media only screen and (min-width: 2299px) {
+        height:80vh;
+    }
+}
+
+/* ABOUT ME */
+.about-me-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+
+    .about-me-holder{
+        display:flex;
+        flex-direction: column;
+
+        .about-me-first-paragraph, .about-me-second-paragraph{
+            font-size:2em;
+            color:#A0A0A0;
+        }
+
+        .about-me-first-paragraph{
+            font-weight: 500;
+        }
+
+        .about-me-second-paragraph{
+            font-weight: 300;
+        }
+
+        .about-me-title{
+            color:#E0E0E0;
+            font-weight:700;
+            font-size:4em;
+            margin: 50px 0px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .about-me-holder .about-me-title{
+            font-size: 3em;
+        }
+    }
+}
+
+/* PORTRAIT */   
+.portrait-container{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:28%;
+
+    img{
+        width:250px;
+        border-radius: 50%;
+        border:2px solid black;
+        -webkit-box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+        -moz-box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+        box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.43);
+    }
+
+    @media (max-width: 480px) {
+        img{
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        img{
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width:1280px){
+        img{
+            width:200px;
+        }
+    }
+}
+
+/* HEADER - ICON */
+.go-down-icon-container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:70vw;
+    height:18vh;
+    font-size:2em;
+    padding:20px;
+
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+
+    :hover{
+        cursor: pointer;
+        color:#3A3856;
+    }
+
+    @media (max-width: 480px) {
+        display:none;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        width:95vw;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width:1280px){
+        height:14vh;
+        width: 95vw;
+    }
+
+    @media only screen and (min-width: 1281px) and (max-width:1699px){
+        height:14vh;
+        width: 90vw;
+    }
+}
