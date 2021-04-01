@@ -13,9 +13,8 @@ const AboutMe = (props) => {
                 <span>I'm a M.E.R.N. stack developer with background in the film industry.</span>
             </div>
 
-
             <div className="about-me-second-paragraph">
-                I am dedicated and persistent individual who excels under stress. I am living in Sarajevo but would consider moving elsewhere for a good opportunity.
+                I am dedicated and persistent individual who excels under stress. I am currently working as a junior web developer in Zagreb.
             </div>
 
         </div>

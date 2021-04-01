@@ -1,5 +1,5 @@
 import BetsCover from '../../../images/Dev/BetsCover.png';
-import ShopCover from '../../../images/Dev/ShopCover.png'
+import ShopCover from '../../../images/Dev/shopCover-img.png'
 
 const projectsObject = [
 {

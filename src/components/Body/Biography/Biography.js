@@ -11,7 +11,7 @@ const Biography = (props) => {
                 <div className="biography-text">
 
                     <div className="biography-paragraph">
-                        I have been coding for a little over 3 years now, mostly for myself. My background is in film. I have studied directing at Academy of Performing Arts in Sarajevo, and have worked as an assistant director in feature-length movies, shorts and commercials. <span className="highlighted">But my heart is in code.</span> What started as a sunday hobby became a passion and obsession. And now I am looking to switch career path, permanently.
+                        I have been coding for a little over 3 years now, mostly for myself. My background is in film. I have studied directing at Academy of Performing Arts in Sarajevo, and have worked as an assistant director in feature-length movies, shorts and commercials. <span className="highlighted">But my heart is in code.</span> What started as a sunday hobby became a passion and obsession. And as of april 2021, I officially started my dev journey.
                 </div>
 
                     <div className="biography-paragraph">
@@ -19,11 +19,7 @@ const Biography = (props) => {
                 </div>
 
                     <div className="biography-paragraph">
-                        I have always been described as a professional above all. I am punctual and neat, both in personal life and in work environment. I fit great into hierarchy. I can take charge when needed and recognize when it’s time to lay back and let others lead. If you are sceptical about my level of expertise, I understand that completely. What I suggest is that you browse through my showcase projects. Create a profile, add bets and groups and then delete them. Buy a pair of shoes and check the stats and availability.  Try to crash the websites. Try to access confidental data via postman or some other way. Point being, <span className="highlighted">Give me chance. You might not regret it.</span>
-                </div>
-
-                    <div className="biography-paragraph">
-                        I am currently learning <a href="https://www.python.org" target="_blank" rel="noreferrer">Python</a>, and  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">Django</a>.
+                        I have always been described as a professional above all. I am punctual and neat, both in personal life and in work environment. I fit great into hierarchy. I can take charge when needed and recognize when it’s time to lay back and let others lead.
                 </div>
 
                 </div>

@@ -19,7 +19,7 @@ const skillsObject = [
     },
     {
         icon: faDatabase,
-        text: "I have worked with Firebase Firestore, and most notably, MongoDB, with the help of Mongoose of course. I can structure database well with good writen Schemas and Models, help migrate data and more.",
+        text: "I have worked with Firebase Firestore, and most notably, MongoDB, with the help of Mongoose of course. I can structure database well with good writen Schemas and Models.",
         title: "Experience with NOSQL databases"
     },
     {

@@ -6,7 +6,7 @@ import TicTacToe from '../../images/Dev/TicTacToe.jpg';
 export const shopAppLoginData = { email: "johndoe@gmail.com", password: "testtest123", title:"Admin profile" }
 
 
-export const betAppLoginData = { email: "dennisasip@hotmail.com", password: "testtest123", title:"Precreated profile" };
+export const betAppLoginData = { email: "dennisiasip@hotmail.com", password: "testtest123", title:"Precreated profile" };
 
 export const codepenTitles = [
 {
