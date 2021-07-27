@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { betAppLoginData, shopAppLoginData } from '../../InfoObjects/DevObjects';
 import LoginData from '../LoginData/LoginData';
 
 const SingleProject = (props) => {
@@ -31,7 +30,7 @@ const SingleProject = (props) => {
                     </a>
                 </div>
                 <div className="project-header">{props.project.header}</div>
-                <LoginData data={props.project.title === "Betting website" ? betAppLoginData : shopAppLoginData} handleCopy={handleCopy} />
+               {props.project.login ?  <LoginData data={props.project.loginData} handleCopy={handleCopy} /> : null}
                 <div className="project-text">{props.project.text}</div>
                 <div className="project-link">
                     <a href={props.project.link} target="_blank" rel="noreferrer">

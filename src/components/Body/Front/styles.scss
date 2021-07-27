@@ -42,6 +42,14 @@
             font-size:4em;
             margin: 50px 0px;
         }
+
+        a{
+            color:#A0A0A0;
+
+            &:hover{
+                color:#3A3856;
+            }
+        }
     }
 
     @media (max-width: 480px) {

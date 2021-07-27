@@ -1,26 +1,28 @@
-import { faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faCogs, faDatabase, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faAngular, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faCogs, faDatabase, faGlobe, faServer } from '@fortawesome/free-solid-svg-icons';
 
 const skillsObject = [
     {
         icon: faCode,
-        text: "All frameworks and tools aside, knowing the core & fundamentals is what gets you through the end. I am well versed in both old and modern versions of ECMAScript and I would feel comfortable in any Javascript environment.",
+        text: "All frameworks and tools aside, knowing the core & fundamentals is what gets you through the end. I am well versed in both old and modern versions of ECMAScript and I would feel comfortable in any of its environments.",
         title: "Vanilla Javascript"
     },
     {
         icon: faReact,
-        text: "I can create and structure front end code that is readable and easy to maintain. I was coding in React before the introduction of hooks, so I can maintain that old code if needed and write the modern as well.",
-        title: "Front end development - react"
+        icon2: faAngular,
+        text: "I can create and structure front end code that is readable and easy to maintain. My own portfolio projects were done with React, but I mostly work with Angular in my current company.",
+        title: "Front end development - react & angular"
     },
     {
         icon: faNodeJs,
-        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I am your guy. I have experience in user authentication with tokens, CRUD operations, file and storage interactions and experience with REST API.",
-        title: "Back end development - Node.js"
+        icon2: faServer,
+        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I can be of assistance. I have general experience with REST API, mostly in Node.js, but lately in .NET as well.",
+        title: "Back end development - Node.js & .NET"
     },
     {
         icon: faDatabase,
-        text: "I have worked with Firebase Firestore, and most notably, MongoDB, with the help of Mongoose of course. I can structure database well with good writen Schemas and Models.",
-        title: "Experience with NOSQL databases"
+        text: "In my own projects I used NoSQL database (MongoDB with Mongoose) because that's what you learn first as a self-taught developer. However, projects that I do for my company all use SQL based, so I did my fair share of SQL queries as well.",
+        title: "Experience with SQL & NoSQL databases"
     },
     {
         icon: faCogs,
@@ -29,7 +31,7 @@ const skillsObject = [
     },
     {
         icon: faGlobe,
-        text: "If your company does frequent meetings & pitching with international clients, I can be of a great assistance. I have a profound knowledge of the English language, speak it fluently and without a thick Russian accent.",
+        text: "If your company does frequent meetings & pitchings with international clients, my non-developer skills can come in hand. I have worked previously as a night receptionist in a hostel, photographer and tourist guide for Travel agency, assistant director on sets with international crew. I have a profound knowledge of the English language, speak it fluently and without a thick Russian accent.",
         title: "Advanced English"
     }
 ]
