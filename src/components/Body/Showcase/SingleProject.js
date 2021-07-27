@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import LoginData from '../LoginData/LoginData';
+import TileIcons from './tileIcons';
 
 const SingleProject = (props) => {
     const handleCopy = (e, id, value) => {
@@ -19,6 +20,17 @@ const SingleProject = (props) => {
             copyId.style.backgroundColor = "#E0E0E0";
             copyId.style.color = "#000";
         }, 1000)
+    }
+
+    const handlePictureHover = (id, e) => {
+        const tile = document.getElementById(`project-tile-hover-${id}`);
+        if(e.type === "mouseenter"){
+            tile.classList.remove("project-tile-hidden");
+            tile.classList.add("project-tile-shown");
+        } else if(e.type === "mouseleave"){
+            tile.classList.remove("project-tile-shown");
+            tile.classList.add("project-tile-hidden");
+        }
     }
 
     return (
@@ -39,8 +51,11 @@ const SingleProject = (props) => {
                     </a>
                 </div>
             </div>
-            <div className="project-picture">
+            <div className="project-picture" onMouseEnter={handlePictureHover.bind(null, props.project.id)} onMouseLeave={handlePictureHover.bind(null, props.project.id)}>
                 <img src={props.project.imgSrc} alt={props.project.title} />
+                <div id={`project-tile-hover-${props.project.id}`} className="project-tile-hover">
+                <TileIcons tiles={props.project.tiles} />
+                </div>
             </div>
         </div>
     );
