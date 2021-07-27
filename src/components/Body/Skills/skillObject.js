@@ -16,12 +16,12 @@ const skillsObject = [
     {
         icon: faNodeJs,
         icon2: faServer,
-        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I can be of assistance. I have general experience with REST API, mostly in Node.js, but lately in .NET as well.",
+        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I can be of assistance. I have general experience with REST API, mostly in Node.js, but lately I've been coding in .NET as well.",
         title: "Back end development - Node.js & .NET"
     },
     {
         icon: faDatabase,
-        text: "In my own projects I used NoSQL database (MongoDB with Mongoose) because that's what you learn first as a self-taught developer. However, projects that I do for my company all use SQL based, so I did my fair share of SQL queries as well.",
+        text: "In my own projects I used NoSQL database (MongoDB with Mongoose) because that's what you learn first as a self-taught developer. However, projects that I do for my company all SQL based, so I did my fair share of SQL queries as well.",
         title: "Experience with SQL & NoSQL databases"
     },
     {
