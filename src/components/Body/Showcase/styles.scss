@@ -201,6 +201,14 @@
         margin:10px;
         width: 100px;
     }
+
+    @media (max-width: 480px) {
+        img{
+            margin:5px;
+            width:50px;
+        }
+    }
+
 }
 
 .project-tile-shown{
