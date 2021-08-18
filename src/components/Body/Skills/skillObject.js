@@ -21,7 +21,7 @@ const skillsObject = [
     },
     {
         icon: faDatabase,
-        text: "In my own projects I used NoSQL database (MongoDB with Mongoose) because that's what you learn first as a self-taught developer. However, projects that I do for my company all SQL based, so I did my fair share of SQL queries as well.",
+        text: "In my own projects I used NoSQL database (MongoDB with Mongoose) because that's what you learn first as a self-taught developer. However, projects that I do for my company are all SQL based, so I did my fair share of SQL queries as well.",
         title: "Experience with SQL & NoSQL databases"
     },
     {
