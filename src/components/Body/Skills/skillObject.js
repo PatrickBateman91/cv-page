@@ -16,7 +16,7 @@ const skillsObject = [
     {
         icon: faNodeJs,
         icon2: faServer,
-        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I can be of assistance. I have general experience with REST API, mostly in Node.js, but lately I've been coding in .NET as well.",
+        text: "Whether you need standard routing and authentication or more complex information flow and back-end structure, I can be of assistance. I have general experience with REST API, both in Node.js and .NET",
         title: "Back end development - Node.js & .NET"
     },
     {
@@ -26,12 +26,12 @@ const skillsObject = [
     },
     {
         icon: faCogs,
-        text: "In the past I have worked with Bootstrap and Materialize for styling, Redux for centralizing data on the front end, D3 for data visualization and of course, the necessity - SASS. I am familiar with jQuery although I prefer not to use it with React.",
+        text: "In the past, I have worked with Bootstrap and Materialize for styling, Redux for centralizing data on the front end, D3 for data visualization, JQuery, ChartJS and much more.",
         title: "Conversance of common web tools"
     },
     {
         icon: faGlobe,
-        text: "If your company does frequent meetings & pitchings with international clients, my non-developer skills can come in hand. I have worked previously as a night receptionist in a hostel, photographer and tourist guide for Travel agency, assistant director on sets with international crew. I have a profound knowledge of the English language, speak it fluently and without a thick Russian accent.",
+        text: "If your company does frequent meetings or pitches with international clients, my non-developer skills can come in hand. I have worked previously as a night receptionist in a hostel, photographer and tourist guide for a Travel agency, assistant director on sets with an international crew. I have a profound knowledge of the English language, speak it fluently and without a thick Russian accent.",
         title: "Advanced English"
     }
 ]
