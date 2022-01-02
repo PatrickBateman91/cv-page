@@ -10,13 +10,13 @@ const Biography = (props) => {
       <div className="biography-body">
         <div className="biography-text">
           <div className="biography-paragraph">
-            I have been coding for a little over 3 years now, mostly for myself.
-            My background is in film. I have studied directing at Academy of
+            I have been coding for a about 4 years now, mostly for myself. My
+            background is in film. I have studied directing at Academy of
             Performing Arts in Sarajevo, and have worked as an assistant
             director in feature-length movies, shorts and commercials.{" "}
             <span className="highlighted">But my heart is in code.</span> What
-            started as a sunday hobby became a passion and obsession. And as of
-            april 2021, I officially started my dev journey.
+            started as a sunday hobby became a passion and obsession. In april
+            2021, I officially started my dev journey.
           </div>
 
           <div className="biography-paragraph">

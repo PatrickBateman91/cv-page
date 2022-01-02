@@ -46,12 +46,14 @@ const SingleProject = (props) => {
           <LoginData data={props.project.loginData} handleCopy={handleCopy} />
         ) : null}
         <div className="project-text">{props.project.text}</div>
-        <div className="project-link">
-          <a href={props.project.link} target="_blank" rel="noreferrer">
-            <span>Visit {props.project.title}</span>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </a>
-        </div>
+        {props.project.link ? (
+          <div className="project-link">
+            <a href={props.project.link} target="_blank" rel="noreferrer">
+              <span>Visit {props.project.title}</span>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+          </div>
+        ) : null}
       </div>
       <div
         className="project-picture"
