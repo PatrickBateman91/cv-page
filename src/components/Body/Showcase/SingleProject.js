@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import LoginData from "../LoginData/LoginData";
@@ -46,6 +46,23 @@ const SingleProject = (props) => {
           <LoginData data={props.project.loginData} handleCopy={handleCopy} />
         ) : null}
         <div className="project-text">{props.project.text}</div>
+        <div className="project-stack">
+          <span className="project-stack-title">Stack: </span>
+          {props.project.stack.map((tech, idx) => {
+            return (
+              <Fragment key={idx}>
+                <span className="project-stack-item">{tech}</span>
+                <span className="project-stack-separator">{idx === props.project.stack.length - 1 ? "" : ",  "}</span>
+              </Fragment>
+            )
+          })}
+        </div>
+        {props.project.professional ?
+          <div className="project-role">
+            <span className="project-role-title">Role: </span>
+            <span className="project-role-body">{props.project.role}</span>
+          </div>
+          : null}
         {props.project.link ? (
           <div className="project-link">
             <a href={props.project.link} target="_blank" rel="noreferrer">

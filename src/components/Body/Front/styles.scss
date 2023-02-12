@@ -33,7 +33,13 @@
         }
 
         .about-me-second-paragraph{
+            display:flex;
+            flex-direction: column;
             font-weight: 300;
+
+            span{
+                margin:20px 0px;
+            }
         }
 
         .about-me-title{

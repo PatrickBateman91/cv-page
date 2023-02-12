@@ -14,7 +14,8 @@ const AboutMe = (props) => {
             </div>
 
             <div className="about-me-second-paragraph">
-                I would describe myself as an active, dedicated and persistent individual who excels under stress. I am currently working as a full-stack developer in Zagreb for <a href="https://www.intellegens.hr" rel="noreferrer" target="_blank">Intellegens</a>
+                <span>I would describe myself as an active, dedicated and persistent individual who excels under stress. I bring a passion for delivering results and a commitment to excellence to every project I work on. </span> 
+                <span>I am currently working as a full-stack developer in Zagreb for <a href="https://www.intellegens.hr" rel="noreferrer" target="_blank">Intellegens</a></span>
             </div>
 
         </div>
