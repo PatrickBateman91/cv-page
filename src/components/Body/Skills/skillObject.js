@@ -4,7 +4,7 @@ import { faCode, faCogs, faDatabase, faGlobe, faServer } from '@fortawesome/free
 const skillsObject = [
     {
         icons: [faReact, faAngular, faMicrosoft],
-        text: "With a strong background in Javascript, I have hands-on experience in developing with popular frameworks and libraries such Angular and React. I am currently working on a project using Blazor, latest Microsoft’s framework, demonstrating my versatility and ability to quickly learn new technologies.",
+        text: "With a strong background in Javascript, I have hands-on experience in developing with popular frameworks and libraries such Angular and React. I am currently working on a project using Blazor, latest Microsoft’s framework, which demonstrates my versatility and ability to quickly learn new technologies.",
         title: "Front end development - React, Angular & Blazor"
     },
     {
@@ -14,7 +14,7 @@ const skillsObject = [
     },
     {
         icons: [faDatabase],
-        text: "My experience with databases also includes working with relational databases and writing a multitude of SQL queries. I have used data mappers such as Entity Framework, which has allowed me to effectively interact with relational databases (POSTgreSQL, MSSQL, SQLite). I have also worked with popular NoSQL databases such as MongoDB, and have a solid understanding of document-based database structures. I have experience in data modeling and data migration, allowing me to effectively manage many aspects of a database project.",
+        text: "My experience with databases includes working with relational databases and writing a multitude of SQL queries. I have used data mappers such as Entity Framework, which has allowed me to effectively interact with relational databases (POSTgreSQL, MSSQL, SQLite). I have also worked with popular NoSQL databases such as MongoDB, and have a solid understanding of document-based database structures. I have experience in data modeling and data migration, allowing me to effectively manage many aspects of a database project.",
         title: "Database Management and Data Modeling"
     },
     {
@@ -24,7 +24,7 @@ const skillsObject = [
     },
     {
         icons: [faGlobe],
-        text: "I bring a versatile set of skills to the table, including my proficiency in English. With a fluent and accent-free command of the language, I am well-equipped to handle meetings and presentations with international clients. My background as a night receptionist, photographer, content creator, tourist guide, and assistant director on film sets has honed my communication and interpersonal skills. If your company requires effective communication with a global audience, my language skills will be a valuable asset.",
+        text: "I bring a versatile set of skills to the table, including my proficiency in English. With a fluent and accent-free command of the language, I am well-equipped to handle meetings and presentations with international clients. My background as a night receptionist, photographer, content creator, tourist guide, and assistant director on film sets has sharpened my communication and interpersonal skills. If your company requires effective communication with a global audience, my language skills will be a valuable asset.",
         title: "Strong Communication and Interpersonal Skills with fluent English"
     },
     {

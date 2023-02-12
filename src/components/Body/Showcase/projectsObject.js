@@ -3,7 +3,7 @@ import ShopCover from "../../../images/Dev/shopCover-img.png";
 import PerformaCover from "../../../images/Dev/Performa.PNG";
 import IsofiCover from "../../../images/Dev/isofiCover.png";
 import LexieCover from '../../../images/Dev/LexieCover.png';
-import FearlessCover from '../../../images/Dev/FearlessCover.png';
+import FearlessCover from '../../../images/Dev/FearlessCover.jpg';
 import {
   betAppLoginData,
   shopAppLoginData,
@@ -25,7 +25,7 @@ const projectsObject = [
   },
   {
     header:
-      "Performa 365 Exams is a platform for managing and taking professional-level exams. The platform consists of two parts, the so-called Back Office in which authors create and maintain a catalog of questions and a register of exams for individual professional titles, and Front Office - application for taking exams",
+      "Performa 365 Exams is a platform for managing and taking professional-level exams. The platform consists of two parts, the so-called Back Office in which authors create and maintain a catalog of questions and a register of exams for individual professional titles, and Front Office - application for taking exams.",
     id: 2,
     imgSrc: PerformaCover,
     login: false,
@@ -44,7 +44,7 @@ const projectsObject = [
     link: "https://vimeo.com/743985898",
     login: false,
     professional: true,
-    role: "Core developer. Built Therapists Playlists Creator from scratch under the mentorship of a senior developer. Scoped of worked included authentication via Spotify's OAUTH, integrating with Spotify's and LyricFind Web API's, visualizing data with Chart.js and creating algorithms for song recommendations.",
+    role: "Core developer. Built Therapists Playlists Creator from scratch under the mentorship of a senior developer. Scope of work included authentication via Spotify's OAUTH, integrating with Spotify's and LyricFind Web API's, visualizing data with Chart.js and creating algorithms for song recommendations.",
     stack: ["React", "Chart.js"],
     tiles: { javascript: true, react: true },
     text: "",
